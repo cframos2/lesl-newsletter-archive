@@ -1,0 +1,100 @@
+/* Place your CSS styles in this file */
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: sans-serif;
+}
+
+.Title p a:hover {
+                transform: translateY(-5px);
+                box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+                text-decoration: none; /* Ensures no underline on hover */
+                color: white;
+            }
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+}
+
+.Categories {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Always 3 columns */
+  gap: 20px; /* Adds spacing between cards */
+  width: 100%; /* Ensures the container uses full width */
+  align-items: stretch; /* Forces all cards to match the tallest one */
+  margin: 50px auto; /* Adds 50px margin all around */
+  max-width: calc(100% - 200px); /* Prevents width from exceeding screen */
+  padding: 20px; /* Prevents overflow issues */
+  box-sizing: border-box; /* Ensures margin doesn’t cause overflow */
+}
+
+.blog-card {
+  height: 100%; /* Makes all cards the same height */
+  min-height: 300px; /* Ensures all cards are at least this tall */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures spacing is consistent */
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+  width: 100%; /* Prevents any width issues */
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.blog-header {
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  align-items: left; /* Centers everything */
+  text-align: left; /* Ensures text is centered */
+  gap: 8px; /* Adds spacing between elements */
+}
+.blog-link {
+  text-decoration: none; /* Removes the default underline */
+  color: inherit; /* Keeps text colors unchanged */
+  display: block; /* Makes the entire area clickable */
+}
+.tag {
+  display: inline-block; /* Ensures proper spacing */
+  width: auto;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: #0073e6; /* Default blue tag */
+  border-radius: 15px; /* Rounded corners */
+  margin-right: 8px;
+  align-self: flex-start;
+  text-decoration: none;
+}
+
+/* Custom colors for each category */
+.Copy { background-color: #FF5722; } /* Orange for Marketing Copy */
+.Email { background-color: #9C27B0; } /* Purple for Pop Culture */
+.Tech { background-color: #4CAF50; } /* Green for Data */
+.Brand { background-color: #f487bc; } /* Green for Data */
+.Retail {background-color: #e8454b}
+.Social {background-color: #38bdff}
