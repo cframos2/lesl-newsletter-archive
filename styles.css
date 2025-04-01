@@ -43,6 +43,8 @@ h1 {
   box-sizing: border-box; 
 }
 
+/*Styling for blog cards starts here*/
+
 .blog-card {
   height: 100%; 
   min-height: 300px; 
@@ -88,6 +90,8 @@ h1 {
   align-self: flex-start;
   text-decoration: none;
 }
+
+/*Styling for blog cards ends here*/
 
 .Copy { background-color: #FF5722; } 
 .Email { background-color: #9C27B0; }
