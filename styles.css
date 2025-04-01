@@ -1,10 +1,8 @@
-/* Place your CSS styles in this file */
-
 html, body {
     width: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+    overflow-x: hidden; 
 }
 
 * {
@@ -16,7 +14,7 @@ html, body {
 .Title p a:hover {
                 transform: translateY(-5px);
                 box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
-                text-decoration: none; /* Ensures no underline on hover */
+                text-decoration: none; 
                 color: white;
             }
 
@@ -36,27 +34,27 @@ h1 {
 .blog-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Always 3 columns */
-  gap: 20px; /* Adds spacing between cards */
-  width: 100%; /* Ensures the container uses full width */
-  align-items: stretch; /* Forces all cards to match the tallest one */
-  margin: 50px auto; /* Adds 50px margin all around */
-  max-width: calc(100% - 200px); /* Prevents width from exceeding screen */
-  padding: 20px; /* Prevents overflow issues */
-  box-sizing: border-box; /* Ensures margin doesn’t cause overflow */
+  gap: 20px; 
+  width: 100%; 
+  align-items: stretch; 
+  margin: 50px auto; 
+  max-width: calc(100% - 200px); 
+  padding: 20px; 
+  box-sizing: border-box; 
 }
 
 .blog-card {
-  height: 100%; /* Makes all cards the same height */
-  min-height: 300px; /* Ensures all cards are at least this tall */
+  height: 100%; 
+  min-height: 300px; 
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Ensures spacing is consistent */
+  justify-content: space-between; 
   background: white;
   border-radius: 8px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   padding: 10px;
   transition: transform 0.3s ease-in-out;
-  width: 100%; /* Prevents any width issues */
+  width: 100%; 
 }
 
 .blog-card:hover {
@@ -66,18 +64,18 @@ h1 {
 
 .blog-header {
   display: flex;
-  flex-direction: column; /* Stacks items vertically */
-  align-items: left; /* Centers everything */
-  text-align: left; /* Ensures text is centered */
-  gap: 8px; /* Adds spacing between elements */
+  flex-direction: column; 
+  align-items: left; 
+  text-align: left;
+  gap: 8px; 
 }
 .blog-link {
-  text-decoration: none; /* Removes the default underline */
-  color: inherit; /* Keeps text colors unchanged */
-  display: block; /* Makes the entire area clickable */
+  text-decoration: none; 
+  color: inherit; 
+  display: block; 
 }
 .tag {
-  display: inline-block; /* Ensures proper spacing */
+  display: inline-block; 
   width: auto;
   padding: 5px 10px;
   font-size: 12px;
@@ -85,16 +83,15 @@ h1 {
   text-transform: uppercase;
   color: white;
   background-color: #0073e6; /* Default blue tag */
-  border-radius: 15px; /* Rounded corners */
+  border-radius: 15px;
   margin-right: 8px;
   align-self: flex-start;
   text-decoration: none;
 }
 
-/* Custom colors for each category */
-.Copy { background-color: #FF5722; } /* Orange for Marketing Copy */
-.Email { background-color: #9C27B0; } /* Purple for Pop Culture */
-.Tech { background-color: #4CAF50; } /* Green for Data */
-.Brand { background-color: #f487bc; } /* Green for Data */
+.Copy { background-color: #FF5722; } 
+.Email { background-color: #9C27B0; }
+.Tech { background-color: #4CAF50; } 
+.Brand { background-color: #f487bc; } 
 .Retail {background-color: #e8454b}
 .Social {background-color: #38bdff}
