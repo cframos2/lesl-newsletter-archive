@@ -2,7 +2,7 @@
 <p>A simple archive of articles that I've sent out to my company's marketing team bi-weekly as part of industry research.</p>
 <a href="https://cframos2.github.io/lesl-newsletter-archive/">Visit Newsletter Archive</a>
 <h2 style="font-weight:bold;">Background</h2>
-<p>What began as a side project during my internship at Leslie’s has grown into a tool that team members regularly use to stay up to date with marketing trends and industry research relevant to our business.</p> 
+<p>What began as a side project during my Summer 2024 internship at Leslie’s has grown into a tool that team members regularly use to stay up to date with marketing trends and industry research relevant to our business.</p> 
 <p>During our free-time, a colleague and I collected articles that we'd submit into an AirTable backlog for each other to review. Then every 2 weeks, we selected at least 2-3 articles to feature in a newsletter sent to the marketing team.</p>
 <img src="airtable.gif" alt="Airtable preview">
 <p>Each digest included a main summary highlighting key takeaways and emerging trends, followed by individual article summaries and links.</p>
