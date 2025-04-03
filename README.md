@@ -6,7 +6,6 @@
 <p>During our free-time, a colleague and I collected articles that we'd submit into an AirTable backlog for each other to review. Then every 2 weeks, we selected at least 2-3 articles to feature in a newsletter sent to the marketing team.</p>
 <img src="airtable.gif" alt="Airtable preview">
 <p>Each digest included a main summary highlighting key takeaways and emerging trends, followed by individual article summaries and links.</p>
-<br>
 <img src="https://lh3.googleusercontent.com/d/1QuCc0Hd9AM5IKNqGm_LP8hi4_-VJNxLZ=w800" alt="Marketing Newsletter Sample">
 <h2 style="font-weight:bold;">Purpose</h2>
 <p>The purpose of this website is to make it easy for my company's marketing team to find all the articles and  pieces of research I've shared with them in one convenient place.</p>
